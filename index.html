@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intégrations</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link href=https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css type="text/css" rel="stylesheet">
+    <link href=https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<header>
+   
+</header>
+<body>
+  
+  <div class="container">
+
+     <h1 class="titre">À chacune sa Détox</h1>
+
+     <h3 class="sous-titre">Les fêtes sont passées et vous avez envie de démarrer l’année du bon pied ? A chaque âge son besoin beauté ! Découvrez nos conseils et cures détox personnalisées adaptées à vos besoins.</h3>
+     
+     <button type="button" class="bouton btn btn-lg v"><a href="#">De 14 à 25 ans</a></button>
+     <button type="button" class="bouton btn btn-lg j"><a href="#section1">De 35 à 50 ans</a></button>
+     <button type="button" class="bouton btn btn-lg r"><a href="#section2">De 50 ans et plus</a></button>
+     
+     <h4 class="sous-titre2">Une peau sans encombre</h4>
+
+     <p class="paragraphe">Misez sur notre rituel beauté spécial peaux jeunes ! Gommage visage, soin matifiant, hydratation… Cette routine vous permettra de limiter l’apparition de petites imperfections, de réguler votre peau et de lui apporter toute l’hydratation nécessaire à son équilibre.</p>
+ 
+    </div>
+
+     <div id="section" class="container">
+
+      <div class="row cosmétique">
+
+      <div class="cos col-md-6 col-sm-6 col-xxs-12">
+
+          <img src="images/2001-LP-femme1.jpg" alt="photo femme">
+
+      </div>
+
+      <div class="cos col-md-6 col-sm-6 col-xxs-12 gallery">
+
+            <div><img class="" src="images/2001-LP-femme-pdt1.jpg" alt="photo produit"><h5 class="nom">L'occitane</h5><p class="description">Démaquillant</br>Nettoyant Mousse-en-Gel</p><p class="prix">19.00€</p></div>
+            <div><img class="" src="images/2001-LP-femme-pdt2.jpg" alt="photo produit"><h5 class="nom">Saint-Gervais Mont Blanc</h5><p class="description">Hydratant Matifiant</br>Anti-Imperfections - 40ml</p><p class="prix">12.00€</p></div>
+            <div><img class="" src="images/2001-LP-femme-pdt3.jpg" alt="photo produit"><h5 class="nom">L'occitane</h5><p class="description">Démaquillant</br>Nettoyant Mousse-en-Gel</p><p class="prix">19.00€</p></div>
+            <div><img class="" src="images/2001-LP-femme-pdt4.jpg" alt="photo produit"><h5 class="nom">Saint-Gervais Mont Blanc</h5><p class="description">Hydratant Matifiant</br>Anti-Imperfections - 40ml</p><p class="prix">12.00€</p></div>
+
+    </div>
+  </div>
+</div>
+
+<div id="section1"></div>
+<div id="section2"></div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.gallery').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            arrows: true,
+            fade: false,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            cssEase: 'linear'
+          });
+        });
+      </script>
+</body>
+</html>

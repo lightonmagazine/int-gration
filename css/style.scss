@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+
+
+body{
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+}
+
+
+.titre{
+font-family: 'Unna', serif;
+font-size: 60px;
+margin-bottom: 42px;
+color: #000;
+}
+
+
+.sous-titre{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin-bottom: 44px !important;
+    letter-spacing: 0;
+    line-height: 1.3;
+    color: #000;
+    margin: auto;
+    max-width: 940px;
+    }
+
+.sous-titre2{
+    color: #0A6937;
+    font-family: 'Unna', serif;
+    letter-spacing: 1.49px;
+    font-size: 27px;
+    margin-bottom: 18px;
+}
+
+.paragraphe{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 39px !important;
+    margin: auto;
+    max-width: 700px;
+    
+}
+
+.nom{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.description{
+        font-family: 'Lato', sans-serif;
+        font-size: 16px;
+}
+
+.prix{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #0A6937;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    
+}
+
+.cos {
+    display: flex !important;
+    align-items: center !important;
+    min-height: 35em !important;
+    @media only screen and (max-width:768px) {
+    min-height: 30em !important;}
+    @media only screen and (max-width:500px) {
+    min-height: 25em !important;}
+    @media only screen and (max-width:350px) {
+        min-height: 20em !important;
+        }
+}
+
+.bouton{
+    font-family: 'Lato', sans-serif;
+    margin-top:10px;
+    margin-bottom: 47px !important;
+    width: 212px;;
+    margin-right: 15px;
+    border-radius: 22px !important;
+
+}
+
+.v{
+    color: #0A6937;
+    background-color: #C8DDC0;
+ }
+
+ .j{
+     color: #0A6937;
+    background-color: #F6E829;
+ }
+
+ .r{
+     color: #FFF;
+    background-color: #E84F2E;
+ }
+
+ a{
+    
+    color: inherit !important;
+    text-decoration: inherit !important;
+ }
+
+ .slick-next:before, .slick-prev:before {
+
+    opacity: 1 !important;
+    color: #a8c9b7 !important;
+}
+
+.slick-next {
+    right: -10px !important;
+}
+
+.slick-prev {
+    left: -10px !important;
+}
+
+.cosmétique{
+padding-right: 15px;
+padding-left: 15px;
+}
