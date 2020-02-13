@@ -1,6 +1,10 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Unna&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+header {
+  height: 5%;
+}
+
 body {
   height: 100vh;
 }
